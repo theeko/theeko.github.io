@@ -1,2 +1,8 @@
-.container {
+#portfolio {
 }
+
+header {
+  height: 10%;
+}
+
+footer ul img { width: 50px; }
