@@ -16,6 +16,7 @@
   </head>
   <body  ng-controller="PortfolioCtrl as portfolio">
     <header class="header">
+      
       <div class="brand ">
           <h2 class="brandtex">Kairath</h2>
           <p>Frontend Developer</p>
@@ -24,18 +25,27 @@
         <icons></icons>  
       </div>
     </header>
+    <section class="contact">
+        <h3>Contact Info:  </h3>
+        <a href="https://github.com/thekairath"><img src="img/Octocat.png" /></a>
+        <p>thekairath@hotmail.com</p>
+    </section>
     <div class="portfolio" ng-repeat="showcase in showcases">
       <div class="showcase">
-        <a href="#" class="thumbnail">
-          <img ng-src="{{ showcase.link }}" />
+        <p>Promodoro Clock</p>
+        <a ng-href="{{ showcase.link }}" class="thumbnail">
+          <img ng-src="{{ showcase.path }}" />
         </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+        nisi ut aliquip ex ea commodo consequat.</p>
       </div>
     </div>
     <footer class="footer">
       <nav class= "">
         <ul class="">
-          <li><a href="https://github.com/thekairath"><img src="img/Octocat.jpg" /></a></li>
-          <li><a href="mailto:thekairath@hotmail.com">thekairath@hotmail.com</a></li>
+          <li>2015 &copy; Kairath</li>
         </ul>
       </nav>
     </footer>

@@ -1,13 +1,28 @@
 app.controller("PortfolioCtrl", [ "$scope", function($scope){
     $scope.showcases = [
-        { link: "img/angularcode.jpg" },
-        { link: "img/angularcode.jpg" },
-        { link: "img/angularcode.jpg" },
-        { link: "img/angularcode.jpg" },
-        { link: "img/angularcode.jpg" },
-        { link: "img/angularcode.jpg" },
-        { link: "img/angularcode.jpg" },
-        { link: "img/angularcode.jpg" },
-        { link: "img/angularcode.jpg" },
+        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
+        descrtiption: "asd asd asd asd",
+        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
+        },
+        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
+        descrtiption: "asd asd asd asd",
+        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
+        },
+        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
+        descrtiption: "asd asd asd asd",
+        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
+        },
+        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
+        descrtiption: "asd asd asd asd",
+        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
+        },
+        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
+        descrtiption: "asd asd asd asd",
+        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
+        },
+        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
+        descrtiption: "asd asd asd asd",
+        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
+        },
     ]
 }]);
