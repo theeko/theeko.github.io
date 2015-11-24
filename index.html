@@ -1,58 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myApp">
   <head>
     <title>Kairath</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="js/portfolioctrl.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="css/custom.css">
-    <script type="text/javascript" src="js/jquery-2.1.4.min"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
   </head>
-  <body>
-    <header class="navbar navbar-default ">
-      <div class="container-fluid ">
-          <h2 class="col-md-offset-5 navbar-center">Kairath</h2>
+  <body  ng-controller="PortfolioCtrl as portfolio">
+    <header class="header">
+      <div class="brand ">
+          <h2 class="brandtex">Kairath</h2>
+          <p>Frontend Developer</p>
+      </div>
+      <div class="icons">
+        <icons></icons>  
       </div>
     </header>
-    <div class="row col-md-12 portfolio">
-      <div class="col-xs-6 col-md-4">
+    <div class="portfolio" ng-repeat="showcase in showcases">
+      <div class="showcase">
         <a href="#" class="thumbnail">
-          <img src="img/angularcode.jpg" />
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-4">
-        <a href="#" class="thumbnail">
-          <img src="img/angularcode.jpg" />
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-4">
-        <a href="#" class="thumbnail">
-          <img src="img/angularcode.jpg" />
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-4">
-        <a href="#" class="thumbnail">
-          <img src="img/angularcode.jpg" />
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-4">
-        <a href="#" class="thumbnail">
-          <img src="img/angularcode.jpg" />
-        </a>
-      </div>
-      <div class="col-xs-6 col-md-4">
-        <a href="#" class="thumbnail">
-          <img src="img/angularcode.jpg" />
+          <img ng-src="{{ showcase.link }}" />
         </a>
       </div>
     </div>
     <footer class="footer">
-      <nav class= "col-md-offset-5">
-        <ul class="nav navbar-nav navbar-center">
+      <nav class= "">
+        <ul class="">
           <li><a href="https://github.com/thekairath"><img src="img/Octocat.jpg" /></a></li>
           <li><a href="mailto:thekairath@hotmail.com">thekairath@hotmail.com</a></li>
         </ul>
       </nav>
     </footer>
+    
   </body>
 </html>
