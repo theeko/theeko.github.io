@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kairath</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -16,30 +17,40 @@
   </head>
   <body  ng-controller="PortfolioCtrl as portfolio">
     <header class="header">
-      
       <div class="brand ">
-          <h2 class="brandtex">Kairath</h2>
+          <h2 class="brandtex"><a href="https://github.com/thekairath" target="_blank">Kairath</a></h2>
           <p>Frontend Developer</p>
       </div>
       <div class="icons">
         <icons></icons>  
       </div>
     </header>
-    <section class="contact">
-        <h3>Contact Info:  </h3>
-        <a href="https://github.com/thekairath"><img src="img/Octocat.png" /></a>
-        <p>thekairath@hotmail.com</p>
+    <div class="nav">
+      <ul><li></li></ul>
+    </div>
+    <!--<section class="contact">-->
+    <!--    <a href="https://github.com/thekairath"><img src="img/Octocat.png" /></a>-->
+    <!--    <span>thekairath@hotmail.com</span>-->
+    <!--</section>-->
+    
+    <!--<section class="navigator">-->
+        <!--<ul>-->
+        <!--  <li><a href="#portfolio">Portfolio</li></a>-->
+        <!--</ul>-->
+        <!--<section class="contact">-->
+        <!--<a href="https://github.com/thekairath"><img src="img/Octocat.png" /></a>-->
+        <!--<p>Contact</p>-->
+        <!--<a href="https://github.com/thekairath"><img src="img/Octocat.png" /></a>-->
+        <!--<span>thekairath@hotmail.com</span>-->
     </section>
-    <div class="portfolio" ng-repeat="showcase in showcases">
+      </section>
+    <div class="portfolio" id="portfolio" ng-repeat="showcase in showcases">
       <div class="showcase">
         <p>Promodoro Clock</p>
         <a ng-href="{{ showcase.link }}" class="thumbnail">
           <img ng-src="{{ showcase.path }}" />
         </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat.</p>
+        <p class="showcasetechp">html5, angular</p>
       </div>
     </div>
     <footer class="footer">
