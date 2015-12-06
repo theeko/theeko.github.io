@@ -1,28 +1,20 @@
 app.controller("PortfolioCtrl", [ "$scope", function($scope){
     $scope.showcases = [
         { path: "img/promodoro.PNG", name: "Promodoro Clock", 
-        descrtiption: "asd asd asd asd",
-        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
+        descrtiption: "promodoro clock",
+        link: "http://thekairath.github.io/FrontEndProjectz/PromodoroClock"
         },
-        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
-        descrtiption: "asd asd asd asd",
-        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
+        { path: "img/tictactoe.PNG", name: "TicTacToe", 
+        descrtiption: "tictactoe game",
+        link: "http://thekairath.github.io/FrontEndProjectz/tictactoe"
         },
-        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
+        { path: "img/simongame.PNG", name: "Simon Game", 
         descrtiption: "asd asd asd asd",
-        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
+        link: "http://thekairath.github.io/FrontEndProjectz/simongame/"
         },
-        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
+        { path: "img/wikipediaapi.PNG", name: "Wikipedia Api", 
         descrtiption: "asd asd asd asd",
-        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
-        },
-        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
-        descrtiption: "asd asd asd asd",
-        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
-        },
-        { path: "img/promodoro.PNG", name: "Promodoro Clock", 
-        descrtiption: "asd asd asd asd",
-        link: "http://http://thekairath.github.io/Html-Js-Projectz/PromodoroClock/"
-        },
+        link: "http://thekairath.github.io/FrontEndProjectz/wikipediaapi/"
+        }
     ]
 }]);

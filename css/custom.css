@@ -16,8 +16,10 @@ padding-top: 3px;
 .cont { border: 1px solid black; border-bottom: 1px solid #282830; border-radius: 20%; padding: 6px;}
 footer ul {margin-top: 8px;}
 .footer ul li { display: inline-block; position: relative;  }
-.footer { width: 100%; clear: both; text-align: center; border-top: 3px solid #d3d3d3;}
-.header { width: 100%; height: 6%; text-align: center; background: #e74c3c; overflow: hidden; 
+.footer { width: 100%; clear: both; text-align: center; border-top: 2px solid #282830;
+          background: #ECECEC; overflow: hidden;
+}
+.header { width: 100%; height: 6%; text-align: center; overflow: hidden; 
           color: #ecf0f1; font-family: 'Indie Flower', cursive; font-size: 2em;
           border-bottom: 2px solid #282830;
           background: -webkit-linear-gradient(90deg, #e74c3c, #E01931); /* For Safari 5.1 to 6.0 */
@@ -35,9 +37,9 @@ a:hover { text-decoration: none; color: #D4D4D4; }
 a:visited { color: #FCB941; text-decoration: none; }
 a:active { color: #FCB941; text-decoration: none; text-decoration: none;}
 .portfolio { width: 80%;  margin: 2% auto; }
-.showcase { width: 33%;  position: relative; float: left; padding: 20px; text-align: center;}
+.showcase { width: 33%;   position: relative; float: left; padding: 20px; text-align: center;}
 svg { width: 2em; height: 2em; }
-.showcase img { box-sizing: border-box; width: 100%;}
+.showcase img { box-sizing: border-box; width: 100%; height: 100%;}
 
 @media screen and (max-width: 900px) {
   .showcase {
