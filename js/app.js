@@ -4,5 +4,5 @@ app.directive("icons", function(){
     return {
         restrict: "E",
         templateUrl: "icons.html",
-    } 
+    };
 });

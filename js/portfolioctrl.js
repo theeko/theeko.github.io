@@ -6,6 +6,10 @@ $scope.showcases = [
     descrtiption: "asd asd asd asd",
     link: "http://guarded-crag-3272.herokuapp.com/"
     },
+    { path: "img/nightlife.PNG", name: "Nightlife/Yelp Api", 
+    descrtiption: "asd asd asd asd",
+    link: "https://serene-escarpment-3856.herokuapp.com/"
+    },
     { path: "img/promodoro.PNG", name: "Promodoro Clock", 
     descrtiption: "promodoro clock",
     link: "http://thekairath.github.io/FrontEndProjectz/PromodoroClock"
