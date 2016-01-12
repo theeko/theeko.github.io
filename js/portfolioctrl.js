@@ -6,6 +6,10 @@ $scope.showcases = [
     descrtiption: "asd asd asd asd",
     link: "http://guarded-crag-3272.herokuapp.com/"
     },
+    { path: "img/pintclone.PNG", name: "Pinterest Clone", 
+    descrtiption: "asd asd asd asd",
+    link: "https://vast-thicket-9171.herokuapp.com//"
+    },
     { path: "img/nightlife.PNG", name: "Nightlife/Yelp Api", 
     descrtiption: "asd asd asd asd",
     link: "https://serene-escarpment-3856.herokuapp.com/"
