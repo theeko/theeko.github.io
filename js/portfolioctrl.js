@@ -8,7 +8,15 @@ $scope.showcases = [
     },
     { path: "img/pintclone.PNG", name: "Pinterest Clone", 
     descrtiption: "asd asd asd asd",
-    link: "https://vast-thicket-9171.herokuapp.com//"
+    link: "https://vast-thicket-9171.herokuapp.com/"
+    },
+    { path: "img/react-markdown.PNG", name: "React Markdownn Editor", 
+    descrtiption: "asd asd asd asd",
+    link: "http://codepen.io/kairath/full/ZQyEWP/"
+    },
+    { path: "img/reactladderboard.PNG", name: "React/Ajax Ladderboard", 
+    descrtiption: "asd asd asd asd",
+    link: "http://codepen.io/kairath/full/EVOvBM/"
     },
     { path: "img/nightlife.PNG", name: "Nightlife/Yelp Api", 
     descrtiption: "asd asd asd asd",
@@ -25,10 +33,6 @@ $scope.showcases = [
     { path: "img/simongame.PNG", name: "Simon Game", 
     descrtiption: "asd asd asd asd",
     link: "http://thekairath.github.io/FrontEndProjectz/simongame/"
-    },
-    { path: "img/wikipediaapi.PNG", name: "Wikipedia Api", 
-    descrtiption: "asd asd asd asd",
-    link: "http://thekairath.github.io/FrontEndProjectz/wikipediaapi/"
     }
     
 ];
