@@ -10,6 +10,10 @@ $scope.showcases = [
     descrtiption: "asd asd asd asd",
     link: "https://vast-thicket-9171.herokuapp.com/"
     },
+    { path: "img/booktrade.PNG", name: "Booktrade App", 
+    descrtiption: "asd asd asd asd",
+    link: "https://intense-mesa-3678.herokuapp.com"
+    },
     { path: "img/react-markdown.PNG", name: "React Markdownn Editor", 
     descrtiption: "asd asd asd asd",
     link: "http://codepen.io/kairath/full/ZQyEWP/"
