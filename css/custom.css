@@ -22,8 +22,8 @@ footer ul {margin-top: 8px;}
 .fa-angle-down { font-size: 2em; color: white;  }
 .brand { margin-top: 200px; }
 .brand .brandtex a{ color: white; }
-.header { 
-          width: 100%; height: 640px; text-align: center; overflow: hidden; 
+.header { height: 630px;
+          width: 100%; text-align: center; overflow: hidden; 
           color: #ecf0f1; font-family: 'Indie Flower', cursive; font-size: 2em;
           border-bottom: 2px solid #282830;
           background: -webkit-linear-gradient(90deg, #E01931,#e74c3c); /* For Safari 5.1 to 6.0 */
