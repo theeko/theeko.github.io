@@ -18,6 +18,7 @@
   </head>
   <body  ng-controller="PortfolioCtrl as portfolio">
     <header class="header">
+    
       <div class="brand ">
           <h2 class="brandtex"><a href="https://github.com/thekairath" target="_blank">Kairath</a></h2>
           <p>Fullstack Developer</p>
@@ -46,19 +47,17 @@
         <!--<p>Contact</p>-->
         <!--<a href="https://github.com/thekairath"><img src="img/Octocat.png" /></a>-->
         <!--<span>thekairath@hotmail.com</span>-->
-    </section>
-    </section>
-    <!--<div class="portfolio" id="portfolio" ng-repeat="showcase in showcases">-->
-    <!--  <div class="showcase col-md-3 ">-->
-    <!--    <h3>{{ showcase.name }}</h3>-->
-    <!--    <a ng-href="{{ showcase.link }}" target="_blank" class="">-->
-    <!--      <img ng-src="{{ showcase.path }}" alt="{{showcase.descrtiption }}"/>-->
-    <!--    </a>-->
-        <!--<p class="showcasetechp">{{ showcase.descrtiption }}</p>-->
-    <!--  </div>-->
-    <!--  <hr />-->
+    <!--</section>-->
+    <!--</section>-->
+    <div class="portfolio" id="portfolio" ng-repeat="showcase in showcases">
+      <div class="col-md-3 showcaseitem">
+        <h3>{{ showcase.name }}</h3>
+        <a ng-href="{{ showcase.link }}" target="_blank" class="">
+        <img ng-src="{{ showcase.path }}" alt="{{showcase.descrtiption }}"/>
+        </a>
+      </div>
     
-    <!--</div>-->
+    </div>
     
     <!--<div class="container">-->
     <!--  <a href="https://github.com/thekairath" target="_blank">Kairath Github</a>-->
