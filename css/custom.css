@@ -22,7 +22,7 @@ footer ul {margin-top: 8px;}
 .footer { width: 100%; clear: both; text-align: center; border-top: 2px solid #282830;
           background: #ECECEC; overflow: hidden;
 }
-.fa-angle-down { font-size: 2em; color: white;  }
+.fa-angle-down { font-size: 1.5em; color: white;  }
 
 .brand { margin-top: 200px; }
 .brand .brandtex a{ color: white; }

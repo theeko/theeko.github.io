@@ -14,6 +14,10 @@ $scope.showcases = [
     descrtiption: "asd asd asd asd",
     link: "https://intense-mesa-3678.herokuapp.com"
     },
+    { path: "img/d3project3.PNG", name: "D3 HeatMap", 
+    descrtiption: "asd asd asd asd",
+    link: "http://thekairath.github.io/FrontEndProjectz/d3project3/"
+    },
     { path: "img/react-markdown.PNG", name: "React Markdownn Editor", 
     descrtiption: "asd asd asd asd",
     link: "http://codepen.io/kairath/full/ZQyEWP/"
