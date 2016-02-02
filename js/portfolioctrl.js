@@ -18,6 +18,14 @@ $scope.showcases = [
     descrtiption: "asd asd asd asd",
     link: "http://thekairath.github.io/FrontEndProjectz/d3project3/"
     },
+    { path: "img/recipebox.PNG", name: "React-Recipebox", 
+    descrtiption: "asd asd asd asd",
+    link: "http://codepen.io/kairath/full/KVvebq/"
+    },
+    { path: "img/d3meteor.PNG", name: "D3 Meteor", 
+    descrtiption: "asd asd asd asd",
+    link: "http://codepen.io/kairath/full/bEKwvV/"
+    },
     { path: "img/react-markdown.PNG", name: "React Markdownn Editor", 
     descrtiption: "asd asd asd asd",
     link: "http://codepen.io/kairath/full/ZQyEWP/"
