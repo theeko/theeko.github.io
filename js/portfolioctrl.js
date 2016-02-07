@@ -2,15 +2,19 @@
 
 app.controller("PortfolioCtrl", [ "$scope", function($scope){
 $scope.showcases = [
-    { path: "img/meanvote.PNG", name: "Meanstack Vote App", 
+    { path: "img/gameOfLife.PNG", name: "React/GameofLife", 
+    descrtiption: "asd asd asd asd",
+    link: "http://codepen.io/kairath/full/vLeKbX/"
+    },
+    { path: "img/meanvote.PNG", name: "Mean Vote App", 
     descrtiption: "asd asd asd asd",
     link: "http://guarded-crag-3272.herokuapp.com/"
     },
-    { path: "img/pintclone.PNG", name: "Pinterest Clone", 
+    { path: "img/pintclone.PNG", name: "PinterestClone", 
     descrtiption: "asd asd asd asd",
     link: "https://vast-thicket-9171.herokuapp.com/"
     },
-    { path: "img/booktrade.PNG", name: "Booktrade App", 
+    { path: "img/booktrade.PNG", name: "BooktradeApp", 
     descrtiption: "asd asd asd asd",
     link: "https://intense-mesa-3678.herokuapp.com"
     },
@@ -18,7 +22,7 @@ $scope.showcases = [
     descrtiption: "asd asd asd asd",
     link: "http://thekairath.github.io/FrontEndProjectz/d3project3/"
     },
-    { path: "img/recipebox.PNG", name: "React-Recipebox", 
+    { path: "img/recipebox.PNG", name: "React/Recipebox", 
     descrtiption: "asd asd asd asd",
     link: "http://codepen.io/kairath/full/KVvebq/"
     },
@@ -26,19 +30,19 @@ $scope.showcases = [
     descrtiption: "asd asd asd asd",
     link: "http://codepen.io/kairath/full/bEKwvV/"
     },
-    { path: "img/react-markdown.PNG", name: "React Markdownn Editor", 
+    { path: "img/react-markdown.PNG", name: "React/MarkdownnPrev", 
     descrtiption: "asd asd asd asd",
     link: "http://codepen.io/kairath/full/ZQyEWP/"
     },
-    { path: "img/reactladderboard.PNG", name: "React/Ajax Ladderboard", 
+    { path: "img/reactladderboard.PNG", name: "React/AjaxLadderboard", 
     descrtiption: "asd asd asd asd",
     link: "http://codepen.io/kairath/full/EVOvBM/"
     },
-    { path: "img/nightlife.PNG", name: "Nightlife/Yelp Api", 
+    { path: "img/nightlife.PNG", name: "NightlifeApp", 
     descrtiption: "asd asd asd asd",
     link: "https://serene-escarpment-3856.herokuapp.com/"
     },
-    { path: "img/promodoro.PNG", name: "Promodoro Clock", 
+    { path: "img/promodoro.PNG", name: "PromodoroClock", 
     descrtiption: "promodoro clock",
     link: "http://thekairath.github.io/FrontEndProjectz/PromodoroClock"
     },
@@ -46,7 +50,7 @@ $scope.showcases = [
     descrtiption: "tictactoe game",
     link: "http://thekairath.github.io/FrontEndProjectz/tictactoe"
     },
-    { path: "img/simongame.PNG", name: "Simon Game", 
+    { path: "img/simongame.PNG", name: "SimonGame", 
     descrtiption: "asd asd asd asd",
     link: "http://thekairath.github.io/FrontEndProjectz/simongame/"
     }
