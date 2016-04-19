@@ -2,6 +2,10 @@
 
 app.controller("PortfolioCtrl", [ "$scope", function($scope){
 $scope.showcases = [
+    { path: "img/dentist.PNG", name: "Dentist Site", 
+    descrtiption: "asd asd asd asd",
+    link: "https://dentist-site-eng.herokuapp.com/"
+    },
     { path: "img/gameOfLife.PNG", name: "React/GameofLife", 
     descrtiption: "asd asd asd asd",
     link: "http://codepen.io/kairath/full/vLeKbX/"
