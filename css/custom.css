@@ -7,7 +7,7 @@ body { font-family: 'Oswald', sans-serif; font-weight: 700;
   -moz-user-select: none;
   -ms-user-select: none; 
   user-select: none;    
-  background: #FFEBEE;
+  background: #d2d2d2;
 }
 .brandtex { font-weight: bold; }
 .contact img { width: 3em; margin: 2px;}
@@ -49,10 +49,10 @@ a:link { text-decoration: none; color: #FCB941;}
 a:hover { text-decoration: none; color: #D4D4D4; }
 a:visited { color: #FCB941; text-decoration: none; }
 a:active { color: #FCB941; text-decoration: none; text-decoration: none;}
-.portfolio { width: 80%;  margin: 2% auto; background: #d2d2d2; background-size: cover;}
+.portfolio { width: 80%;  margin: 4% auto; background: #d2d2d2; background-size: cover;}
 .showcase { position: relative; padding: 20px; text-align: center; padding: 50px;}
 svg { width: 2em; height: 2em; }
-.showcaseitem img { box-sizing: border-box; width: 90%; height: 140px; overflow: hidden; margin: auto; }
+.showcaseitem img { box-sizing: border-box; width: 90%; height: 200px; overflow: hidden; margin: auto; }
 .fa-angle-left { font-size: 1em !important;}
 
 @media screen and (max-width: 900px) {
