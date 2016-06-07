@@ -20,6 +20,7 @@ padding-top: 3px;
 footer {  clear: both; padding: 14px;
           text-align: center; color: #EEEEEE;
           background: #F44336; overflow: hidden; height: 50px;
+          margin-top: 60px;
 }
 footer a, footer a:visited, footer a:active, footer a:hover, footer a:focus {
   color: #212121;
@@ -33,7 +34,7 @@ footer a, footer a:visited, footer a:active, footer a:hover, footer a:focus {
 .header { height: 360px;
           width: 100%; text-align: center; overflow: hidden; 
           color: black; font-family: 'Indie Flower', cursive; font-size: 1.5em;
-          border-bottom: 10px solid #D32F2F;
+          border-bottom: 15px solid #D32F2F;
           background: -webkit-linear-gradient(90deg, #E01931,#e74c3c); /* For Safari 5.1 to 6.0 */
           background: -o-linear-gradient(90deg, #e74c3c, #E01931); /* For Opera 11.1 to 12.0 */
           background: -moz-linear-gradient(90deg, #e74c3c, #E01931); /* For Firefox 3.6 to 15 */
